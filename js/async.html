@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>async test</title>
+  </head>
+
+  <body>
+    <script type="./threadTest.js"></script>
+    <script type="./timeoutThreadTest.js"></script>
+    <script>
+      var workerThreadTest = new Worker("threadTest.js");
+      var workerTimeoutThreadTest = new Worker("timeoutThreadTest.js");
+
+      workerThreadTest.postMessage("async");
+      workerTimeoutThreadTest.postMessage("test");
+      console.log("HELLO THERE!");
+
+      // var cLoggerCounter = 0;
+      // function cLogger() {
+      //   if (cLoggerCounter < 20) {
+      //     setTimeout(function () {
+      //       cLoggerCounter ++;
+      //       cLogger();
+      //       console.log("HELLO THERE!");
+      //     }, 20);
+      //   }
+      // }
+      // cLogger();
+    </script>
+  </body>
+</html>
