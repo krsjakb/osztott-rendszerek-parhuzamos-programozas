@@ -33,7 +33,6 @@
       <b-button class="mx-1" type="submit" variant="primary">Submit</b-button>
       <b-button class="mx-1" type="reset" variant="danger">Reset</b-button>
     </b-form>
-    <b-alert show variant="danger" dismissible>Something went wrong</b-alert>
   </div>
 </template>
 
