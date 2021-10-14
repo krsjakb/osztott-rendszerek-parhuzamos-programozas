@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\Git\\testApp3\\testApp3\\testApp3\\testApp3.csproj": {}
+    "D:\\Dev\\Git\\osztott-rendszerek-parhuzamos-programozas\\restDotNet\\testApp3\\testApp3.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\Git\\testApp3\\testApp3\\testApp3\\testApp3.csproj": {
+    "D:\\Dev\\Git\\osztott-rendszerek-parhuzamos-programozas\\restDotNet\\testApp3\\testApp3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\Git\\testApp3\\testApp3\\testApp3\\testApp3.csproj",
+        "projectUniqueName": "D:\\Dev\\Git\\osztott-rendszerek-parhuzamos-programozas\\restDotNet\\testApp3\\testApp3.csproj",
         "projectName": "testApp3",
-        "projectPath": "D:\\Dev\\Git\\testApp3\\testApp3\\testApp3\\testApp3.csproj",
+        "projectPath": "D:\\Dev\\Git\\osztott-rendszerek-parhuzamos-programozas\\restDotNet\\testApp3\\testApp3.csproj",
         "packagesPath": "C:\\Users\\Balint\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\Git\\testApp3\\testApp3\\testApp3\\obj\\",
+        "outputPath": "D:\\Dev\\Git\\osztott-rendszerek-parhuzamos-programozas\\restDotNet\\testApp3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Balint\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -37,6 +37,13 @@ namespace testApp3
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CarsApi", Version = "v1" });
             });
+
+            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,6 +59,8 @@ namespace testApp3
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors("MyPolicy");
 
             app.UseAuthorization();
 
