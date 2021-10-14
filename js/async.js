@@ -1,12 +1,13 @@
-firstCase();
-// secondCase();
+// firstCase();
+secondCase();
+var running = true;
 
 function firstCase() {
   threadTest("RealTime");
 
   callTimeoutThreadTest("Timeout");
 
-  console.log("Hello!");
+  console.log("Hello World!");
 }
 
 function secondCase() {
@@ -16,6 +17,9 @@ function secondCase() {
 
   callTimeoutSleepTest("Timeout", num2);
 
+  // while (!running) {
+  //   console.log("Hello World!");
+  // }
   console.log("Hello!");
 }
 
@@ -27,8 +31,10 @@ function callTimeoutThreadTest(text) {
 
 function threadTest(text) {
   let num = 0;
+  // 100 mill
   while (num < 100000000) {
     num++;
+    // 10 ezer
     if (num % 10000 === 0) {
       console.log(text + " -> " + num);
     }
@@ -42,11 +48,13 @@ function callTimeoutSleepTest(text, num) {
 }
 
 function sleepTest(text, num) {
-  if (num < 10){
+  if (num < 10) {
     setTimeout(function () {
       num++;
       console.log(text + " -> " + num);
       sleepTest(text, num);
     }, 1000);
+  } else if (text === "Timeout") {
+    running = false;
   }
 }

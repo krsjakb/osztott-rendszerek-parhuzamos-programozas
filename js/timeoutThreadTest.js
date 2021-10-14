@@ -1,4 +1,5 @@
-this.addEventListener("message", function (e) {
+this.addEventListener("message",
+  function (e) {
   callTimeoutThreadTest("asyncTimeoutThreadTest");
 });
 
