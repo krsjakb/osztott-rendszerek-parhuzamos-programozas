@@ -58,41 +58,16 @@ export default {
       self.axios
         .post("https://localhost:5001/api/CarBrands", params)
         .then(() => {
-          // self.form.brand = "";
-          // self.form.origin = "";
-          self.makeToast("Resource created!", "Success", "success");
+          self.$router.push("car-brands");
         })
         .catch((e) => {
           console.log(e);
-          // this.makeToast("e.message", "Failed", "danger");
         });
     },
     onReset() {
       this.form.brand = "";
       this.form.origin = "";
     },
-    makeToast(append = false) {
-      this.toastCount++;
-      this.$bvToast.toast(`This is toast number ${this.toastCount}`, {
-        title: "BootstrapVue Toast",
-        autoHideDelay: 5000,
-        appendToast: append,
-      });
-    },
-    // makeToast() {
-    //   this.$bvToast.toast(`This is toast number ${this.toastCount}`, {
-    //     title: "BootstrapVue Toast",
-    //     autoHideDelay: 5000,
-    //     appendToast: false,
-    //   });
-    // },
-    // makeToast(toastText, toastTitle, variant) {
-    //   this.$bvToast.toast(toastText, {
-    //     title: toastTitle,
-    //     autoHideDelay: 5000,
-    //     variant: variant,
-    //   });
-    // },
   },
 };
 </script>
