@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\Git\\osztott-rendszerek-parhuzamos-programozas\\restDotNet\\testApp3\\testApp3.csproj": {}
+    "C:\\Users\\Balint\\Documents\\GitHub\\osztott-rendszerek-parhuzamos-programozas\\restDotNet\\testApp3\\testApp3.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\Git\\osztott-rendszerek-parhuzamos-programozas\\restDotNet\\testApp3\\testApp3.csproj": {
+    "C:\\Users\\Balint\\Documents\\GitHub\\osztott-rendszerek-parhuzamos-programozas\\restDotNet\\testApp3\\testApp3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\Git\\osztott-rendszerek-parhuzamos-programozas\\restDotNet\\testApp3\\testApp3.csproj",
+        "projectUniqueName": "C:\\Users\\Balint\\Documents\\GitHub\\osztott-rendszerek-parhuzamos-programozas\\restDotNet\\testApp3\\testApp3.csproj",
         "projectName": "testApp3",
-        "projectPath": "D:\\Dev\\Git\\osztott-rendszerek-parhuzamos-programozas\\restDotNet\\testApp3\\testApp3.csproj",
+        "projectPath": "C:\\Users\\Balint\\Documents\\GitHub\\osztott-rendszerek-parhuzamos-programozas\\restDotNet\\testApp3\\testApp3.csproj",
         "packagesPath": "C:\\Users\\Balint\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\Git\\osztott-rendszerek-parhuzamos-programozas\\restDotNet\\testApp3\\obj\\",
+        "outputPath": "C:\\Users\\Balint\\Documents\\GitHub\\osztott-rendszerek-parhuzamos-programozas\\restDotNet\\testApp3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Balint\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

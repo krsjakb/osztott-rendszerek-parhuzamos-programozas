@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gd75CTmcBl2sVcqsMrhzVSCQp3X+IA2PBosh9yABqGnE7csmt0eJQGIxlXK/ZrL8mSNnw9GNzQ/9w4xhM3mk8w==",
+  "dgSpecHash": "+6EBDpeNmjUjuEJ2BIDu8OQ5q5or4a7luMkiOG9a0f1fizMYKshBF+EeRZCY3phRvCepgm6l7EmbW9BffAQ5/w==",
   "success": true,
-  "projectFilePath": "D:\\Dev\\Git\\osztott-rendszerek-parhuzamos-programozas\\restDotNet\\testApp3\\testApp3.csproj",
+  "projectFilePath": "C:\\Users\\Balint\\Documents\\GitHub\\osztott-rendszerek-parhuzamos-programozas\\restDotNet\\testApp3\\testApp3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Balint\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Balint\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
