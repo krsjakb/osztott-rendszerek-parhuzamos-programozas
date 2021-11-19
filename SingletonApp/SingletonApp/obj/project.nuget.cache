@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L24vYswCpLZJQ3RioyAc4ZNOOplfaobQOjlbh3CLoMtTvQSJe7JTKTK9vILRaHxFTZgYzLakyUSy+O5uOr4PcQ==",
+  "dgSpecHash": "3lmuW4DSMEzjBctbq4e1wzFr0S4x8AwBJ/1KMsJ94ZFtpaeRsTxpis/ztBCnCGpbeWPM5b5sve2S2YnA0VCp4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Balint\\source\\repos\\SingletonApp\\SingletonApp\\SingletonApp.csproj",
+  "projectFilePath": "C:\\Users\\Balint\\Documents\\GitHub\\osztott-rendszerek-parhuzamos-programozas\\SingletonApp\\SingletonApp\\SingletonApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

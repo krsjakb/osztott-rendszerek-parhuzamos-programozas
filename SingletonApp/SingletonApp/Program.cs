@@ -11,6 +11,14 @@ namespace SingletonApp
 
             MyNonSingleton myNonSingleton = new();
             myNonSingleton.DoSomething();
+
+            RandomMethod();
+        }
+
+        static void RandomMethod()
+        {
+            MyNonSingleton myNonSingleton = new();
+            myNonSingleton.DoSomething();
         }
     }
 

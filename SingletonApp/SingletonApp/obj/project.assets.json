@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Balint\\source\\repos\\SingletonApp\\SingletonApp\\SingletonApp.csproj",
+      "projectUniqueName": "C:\\Users\\Balint\\Documents\\GitHub\\osztott-rendszerek-parhuzamos-programozas\\SingletonApp\\SingletonApp\\SingletonApp.csproj",
       "projectName": "SingletonApp",
-      "projectPath": "C:\\Users\\Balint\\source\\repos\\SingletonApp\\SingletonApp\\SingletonApp.csproj",
+      "projectPath": "C:\\Users\\Balint\\Documents\\GitHub\\osztott-rendszerek-parhuzamos-programozas\\SingletonApp\\SingletonApp\\SingletonApp.csproj",
       "packagesPath": "C:\\Users\\Balint\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Balint\\source\\repos\\SingletonApp\\SingletonApp\\obj\\",
+      "outputPath": "C:\\Users\\Balint\\Documents\\GitHub\\osztott-rendszerek-parhuzamos-programozas\\SingletonApp\\SingletonApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Balint\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = SingletonApp
-build_property.ProjectDir = C:\Users\Balint\source\repos\SingletonApp\SingletonApp\
+build_property.ProjectDir = C:\Users\Balint\Documents\GitHub\osztott-rendszerek-parhuzamos-programozas\SingletonApp\SingletonApp\
